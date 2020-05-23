@@ -40,18 +40,11 @@ public class Car {
         this.user = user;
     }
 
-
-
     public Car(User user, String name, int series) {
         this.user = user;
         this.name = name;
         this.series = series;
     }
-
-//    public Car( String name, int series) {
-//        this.name = name;
-//        this.series = series;
-//    }
 
     public String getName() {
         return name;
